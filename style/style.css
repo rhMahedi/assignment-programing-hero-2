@@ -1,0 +1,182 @@
+/* font name  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap');
+
+* {
+  font-family: 'Mulish', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+
+header {
+  max-width: 1440px;
+  max-height: 700px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 48px;
+  height: 56.008px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.wonder-tour {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+  padding-left: 10px;
+
+}
+
+.tour {
+  color: #FF5400;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  max-height: 600px;
+  margin: 0px auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+/* menu section ending */
+.header-banner {
+  max-width: 1170px;
+  max-height: 500px;
+  margin: 0px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.534)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 8px;
+  padding-bottom: 100px;
+  width: 100%;
+
+}
+
+.Explor {
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 115px;
+
+}
+
+.explor-descrp {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.header-input-main {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  margin-top: 15px;
+}
+
+.header-input {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FFF;
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 7px;
+  border: none;
+
+
+}
+
+.btn-primary {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+
+
+
+
+/* responsive style start  */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+  .wonder-tour {
+    color: #131318;
+    font-size: 21.543px;
+    font-weight: 800;
+  }
+  .tour {
+    color: #FF5400;
+    font-size: 21.543px;
+    font-weight: 800;
+  }
+  .Explor {
+font-size: 22px;
+font-weight: 800;
+padding-top: 50px;
+  }
+  .explor-descrp{
+    color: #FFF;
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 21px;
+  }
+  .header-input-main{
+    flex-direction: column;
+    
+  }
+  .header-input{
+    width: 255px;
+height: 52px;
+  }
+  .btn-primary{
+    width: 255px;
+    height: 52px;
+  }
+
+}
